@@ -49,3 +49,10 @@
 .third-sec {
     background-color: var(--sec-bg);
 }
+
+@media screen and (max-width: 576px) {
+    .first-sec p {
+        width: auto !important;
+        letter-spacing: 4px !important;
+    }
+}
